@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anuphan', sans-serif;
+}
+
+.colorGris {
+    background: linear-gradient(to right, #1d3947, #1d4962, #1e5372)
+}
+
+.botOra {
+    color: white;
+}
+
+img {
+    opacity: 1;
+    object-fit: cover;
+}
+
+.navbar-dark .navbar-nav .colorVerde {
+    color: rgb(9, 130, 47);
+}
+
+.carousel-caption{
+    text-align: end;
+}
+.card {
+    margin-top: 4%;
+}
+
+.card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 4% 4% 0px 0px;
+}
+
+
+.tituloCardBodyJv {
+    height: 20%;
+    margin-right: 0.8rem;
+    border-radius: 5%;
+    background-color: rgb(255, 196, 0);
+}
+
+.tituloCardBodyRe {
+    height: 20%;
+    margin-right: 0.8rem;
+    border-radius: 5%;
+    background-color: cyan;
+}
+
+.tituloCardBodyNeg {
+    height: 20%;
+    margin-right: 0.8rem;
+    border-radius: 5%;
+    background-color: gainsboro;
+}
+
+.tituloCardBodySta {
+    height: 20%;
+    margin-right: 0.8rem;
+    border-radius: 5%;
+    background-color: red;
+}
+
+.card-body {
+    padding: 0;
+    margin-left: 2%;
+}
+
+
+h4 {
+    padding: 0;
+    margin-left: 2%;
+    margin-top: 0%;
+}
+
+.card-text {
+    margin-left: 2%;
+    padding-bottom: 2%;
+}
+
+.columnaIzq {
+    background-image: url("../assets/img/ba4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.columnaDer {
+    background: linear-gradient(to right, #1d3947, #1d4962, #1e5372);
+    color: white;
+    height: 60vh;
+}
+
+.footer {
+    background: linear-gradient(to right, #1d3947, #1d4962, #1e5372);
+   height: 10vh;
+}
+
+.contenedorFooter a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 567px) {
+    .carousel-caption {
+        color: black;
+        text-align: center;
+        position:absolute;
+        top: 35%;
+    }
+
+    .carousel-inner {
+        display: block;
+        text-align: center;
+        height: 770px;
+        
+    }
+
+    .botOra {
+        color: black;
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding:0;
+        margin-top: 3%;
+    }
+
+    .compTick {
+        color: black;
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin-top: 3%;
+    }
+    .footer{
+        height: 100%;
+    }
+}
